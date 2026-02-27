@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiim Now Playing</title>
+  <style>
+    body {
+      background: #1a1a1a;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 24px;
+    }
+    h1 { color: #ffffff; font-size: 2em; margin-bottom: 4px; }
+    .subtitle { color: #888; margin-bottom: 32px; }
+    .download-btn {
+      display: inline-block;
+      background: #2ea44f;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-bottom: 40px;
+      transition: background 0.2s;
+    }
+    .download-btn:hover { background: #22863a; }
+    .note { color: #888; font-size: 0.9em; margin-top: -28px; margin-bottom: 40px; }
+    h2 { color: #ccc; border-bottom: 1px solid #333; padding-bottom: 6px; }
+    ul { line-height: 1.9; padding-left: 20px; }
+    .req { color: #aaa; }
+  </style>
+</head>
+<body>
+  <h1>Wiim Now Playing</h1>
+  <p class="subtitle">Lightweight Now Playing display for Wiim &amp; Linkplay audio devices</p>
+
+  <a class="download-btn" href="https://github.com/poppeli/wiim-now-playing-go/releases/latest/download/Wiim%20Now%20Playing.exe">
+    ⬇ Download for Windows
+  </a>
+  <p class="note">Windows 10/11 &nbsp;·&nbsp; ~15–20 MB &nbsp;·&nbsp; No installation required</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Automatic device discovery via SSDP/UPnP</li>
+    <li>Album art with fallback to iTunes artwork</li>
+    <li>Playback controls (play/pause, previous, next)</li>
+    <li>Device switching for multiple Wiim devices</li>
+    <li>Fullscreen mode with multiple view layouts</li>
+    <li>Dark theme UI</li>
+    <li>Single .exe — no installation, no dependencies</li>
+  </ul>
+
+  <h2>Requirements</h2>
+  <p class="req">Windows 10/11 &nbsp;·&nbsp; Wiim device on the same local network</p>
+
+  <h2>Source</h2>
+  <p><a href="https://github.com/poppeli/wiim-now-playing-go" style="color:#58a6ff;">github.com/poppeli/wiim-now-playing-go</a></p>
+</body>
+</html>

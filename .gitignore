@@ -1,0 +1,7 @@
+# Exclude everything
+*
+
+# Except these files
+!.gitignore
+!readme.txt
+!index.html
