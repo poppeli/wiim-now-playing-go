@@ -32,6 +32,19 @@
     h2 { color: #ccc; border-bottom: 1px solid #333; padding-bottom: 6px; }
     ul { line-height: 1.9; padding-left: 20px; }
     .req { color: #aaa; }
+    .shortcuts { border-collapse: collapse; width: 100%; margin-bottom: 8px; }
+    .shortcuts th {
+      text-align: left; color: #888; font-weight: normal;
+      font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.05em;
+      padding: 4px 0 8px 0; border-bottom: 1px solid #2a2a2a;
+    }
+    .shortcuts td { padding: 5px 0; vertical-align: top; }
+    .shortcuts td:first-child { width: 110px; }
+    kbd {
+      background: #2a2a2a; border: 1px solid #444; border-radius: 4px;
+      padding: 2px 7px; font-family: monospace; font-size: 0.9em; color: #ddd;
+    }
+    .shortcuts-note { color: #666; font-size: 0.85em; margin-top: 6px; }
   </style>
 </head>
 <body>
@@ -54,10 +67,31 @@
     <li>Single .exe — no installation, no dependencies</li>
   </ul>
 
+  <h2>Keyboard Shortcuts</h2>
+  <table class="shortcuts">
+    <tr><th colspan="2">Playback (works in all modes)</th></tr>
+    <tr><td><kbd>Space</kbd></td><td>Play / Pause</td></tr>
+    <tr><td><kbd>Right</kbd></td><td>Next track</td></tr>
+    <tr><td><kbd>Left</kbd></td><td>Previous track</td></tr>
+  </table>
+  <table class="shortcuts" style="margin-top:16px">
+    <tr><th colspan="2">Fullscreen</th></tr>
+    <tr><td><kbd>F11</kbd></td><td>Toggle fullscreen</td></tr>
+    <tr><td><kbd>ESC</kbd></td><td>Exit fullscreen</td></tr>
+    <tr><td><kbd>1</kbd></td><td>Full view — title, artist, album, progress</td></tr>
+    <tr><td><kbd>2</kbd></td><td>Title + progress</td></tr>
+    <tr><td><kbd>3</kbd></td><td>Art + progress</td></tr>
+    <tr><td><kbd>4</kbd></td><td>Art only (maximum size)</td></tr>
+    <tr><td><kbd>5</kbd></td><td>Art + corner text (title, artist, album)</td></tr>
+    <tr><td><kbd>9</kbd></td><td>Help screen</td></tr>
+  </table>
+  <p class="shortcuts-note">Fullscreen view mode is remembered between sessions.</p>
+
   <h2>Requirements</h2>
   <p class="req">Windows 10/11 &nbsp;·&nbsp; Wiim device on the same local network</p>
 
   <h2>Source</h2>
   <p><a href="https://github.com/poppeli/wiim-now-playing-go" style="color:#58a6ff;">github.com/poppeli/wiim-now-playing-go</a></p>
+
 </body>
 </html>
