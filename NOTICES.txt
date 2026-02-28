@@ -1,0 +1,181 @@
+THIRD-PARTY NOTICES
+===================
+
+Wiim Now Playing includes the following third-party open source software.
+
+
+fyne.io/fyne/v2
+---------------
+BSD 3-Clause License
+Copyright (C) 2018 Fyne.io developers
+https://fyne.io
+
+
+fyne.io/systray
+---------------
+Apache License 2.0
+https://github.com/fyne-io/systray
+
+
+github.com/BurntSushi/toml
+--------------------------
+MIT License
+Copyright (c) 2013 TOML authors
+https://github.com/BurntSushi/toml
+
+
+github.com/davecgh/go-spew
+--------------------------
+ISC License
+Copyright (c) 2012-2016 Dave Collins
+https://github.com/davecgh/go-spew
+
+
+github.com/fredbi/uri
+---------------------
+MIT License
+Copyright (c) 2018 Frederic Bidon
+https://github.com/fredbi/uri
+
+
+github.com/fsnotify/fsnotify
+----------------------------
+BSD 3-Clause License
+Copyright © 2012 The Go Authors. All rights reserved.
+Copyright © fsnotify Authors. All rights reserved.
+https://github.com/fsnotify/fsnotify
+
+
+github.com/fyne-io/gl-js
+github.com/fyne-io/glfw-js
+github.com/fyne-io/image
+github.com/fyne-io/oksvg
+------------------------
+BSD 3-Clause License / MIT License
+Copyright (c) 2022, Fyne.io
+https://github.com/fyne-io
+
+
+github.com/go-gl/gl
+-------------------
+MIT License
+Copyright (c) 2014 Eric Woroshow
+https://github.com/go-gl/gl
+
+
+github.com/go-gl/glfw/v3.3/glfw
+--------------------------------
+BSD 3-Clause License
+Copyright (c) 2012 The glfw3-go Authors. All rights reserved.
+
+Includes GLFW (https://www.glfw.org):
+zlib/libpng License
+Copyright (c) 2002-2006 Marcus Geelnard
+Copyright (c) 2006-2019 Camilla Löwy
+
+
+github.com/go-text/render
+github.com/go-text/typesetting
+------------------------------
+BSD 3-Clause License OR Unlicense
+Copyright 2021 The go-text authors
+https://github.com/go-text
+
+
+github.com/godbus/dbus/v5
+-------------------------
+BSD 2-Clause License
+Copyright (c) 2013, Georg Reinke, Google
+https://github.com/godbus/dbus
+
+
+github.com/hack-pad/go-indexeddb
+github.com/hack-pad/safejs
+---------------------------------
+Apache License 2.0
+https://github.com/hack-pad
+
+
+github.com/jeandeaual/go-locale
+-------------------------------
+MIT License
+Copyright (c) 2020 Alexis Jeandeau
+https://github.com/jeandeaual/go-locale
+
+
+github.com/jsummers/gobmp
+-------------------------
+MIT License
+https://github.com/jsummers/gobmp
+
+
+github.com/kr/text
+------------------
+MIT License
+Copyright 2012 Keith Rarick
+https://github.com/kr/text
+
+
+github.com/nfnt/resize
+----------------------
+ISC License
+Copyright (c) 2012, Jan Schlicht
+https://github.com/nfnt/resize
+
+
+github.com/nicksnyder/go-i18n/v2
+---------------------------------
+MIT License
+Copyright (c) 2014 Nick Snyder
+https://github.com/nicksnyder/go-i18n
+
+
+github.com/pmezard/go-difflib
+-----------------------------
+BSD 3-Clause License
+Copyright (c) 2013, Patrick Mezard
+https://github.com/pmezard/go-difflib
+
+
+github.com/rymdport/portal
+--------------------------
+Apache License 2.0
+https://github.com/rymdport/portal
+
+
+github.com/srwiley/oksvg
+github.com/srwiley/rasterx
+--------------------------
+BSD 3-Clause License
+Copyright (c) 2018, Steven R Wiley
+https://github.com/srwiley
+
+
+github.com/stretchr/testify
+---------------------------
+MIT License
+Copyright (c) 2012-2020 Mat Ryer, Tyler Bunnell and contributors
+https://github.com/stretchr/testify
+
+
+github.com/yuin/goldmark
+------------------------
+MIT License
+Copyright (c) 2019 Yusuke Inuzuka
+https://github.com/yuin/goldmark
+
+
+golang.org/x/image
+golang.org/x/net
+golang.org/x/sys
+golang.org/x/text
+------------------
+BSD 3-Clause License
+Copyright 2009 The Go Authors
+https://golang.org/x
+
+
+gopkg.in/yaml.v3
+----------------
+MIT License and Apache License 2.0
+https://gopkg.in/yaml.v3
