@@ -61,6 +61,12 @@ Author
 Hallakorpi Digital
 
 
+Disclaimer
+----------
+This software is provided "as is", without warranty of any kind.
+The author is not liable for any damages arising from its use.
+
+
 Third-party Libraries
 ---------------------
 This software uses Fyne (https://fyne.io) — Copyright © Fyne.io developers.
