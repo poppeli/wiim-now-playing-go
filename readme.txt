@@ -59,3 +59,9 @@ Troubleshooting
 Author
 ------
 Hallakorpi Digital
+
+
+Third-party Libraries
+---------------------
+This software uses Fyne (https://fyne.io) — Copyright © Fyne.io developers.
+Used under the BSD 3-Clause License.
